@@ -9,6 +9,15 @@ h1, h2, h3, h4, h5, p{
 
 img{
     width: 90vw;
+    display: block;
+}
+
+#image{
+    max-width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #title{
@@ -39,8 +48,6 @@ a{
     gap: 3px;
     padding: 20px 30px;
 }
-
-
 
 .post img{
     width: 100%;
